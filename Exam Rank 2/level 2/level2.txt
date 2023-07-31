@@ -1,5 +1,5 @@
 
-15 Functions/Programs
+12 Functions/Programs
 
 To Practice:
 
@@ -8,16 +8,13 @@ To Practice:
   - ft_atoi
   - ft_strcmp
   - ft_strcspn
-  - ft_strdup
   - ft_strpbrk
   - ft_strrev
   - ft_strspn
   - inter
   - print_bits
   - reverse_bits
-  - swap_bits
   - union
-  - wdmatch
 
 Done:
 
@@ -26,5 +23,6 @@ Done:
   - camel_to_snake
   - max
   - snake_to_camel
-
-
+  - wdmatch
+  - swap_bits
+  - ft_strdup

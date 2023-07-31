@@ -1,17 +1,14 @@
 
-10 Functions/Programs
+7 Functions/Programs
 
 To Practice:
 
   - epur_str
   - expand_str
   - ft_atoi_base
-  - ft_list_size
-  - ft_rrange
   - lcm
   - paramsum
   - print_hex
-  - str_capitalizer
   - tab_mult
 
 Done:
@@ -21,3 +18,6 @@ Done:
   - ft_range
   - pgcd
   - hidenp
+  - ft_list_size
+  - ft_rrange
+  - str_capitalizer

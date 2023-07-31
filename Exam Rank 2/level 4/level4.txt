@@ -1,12 +1,10 @@
 
-5 Functions/Programs
+3 Functions/Programs
 
 To Practice:
 
   - fprime
   - ft_itoa
-  - ft_list_remove_if
-  - ft_split
   - sort_list
 
 Done:
@@ -16,3 +14,5 @@ Done:
   - sort_int_tab
   - rev_wstr
   - ft_list_foreach
+  - ft_list_remove_if
+  - ft_split

@@ -1,0 +1,21 @@
+
+6 Functions/Programs
+
+To Practice:
+
+- first_word
+- ft_strcpy
+- ft_swap
+- rev_print
+- rotone
+- ulstr
+
+Done:
+
+- fizzbuzz
+- rot_13
+- search_and_replace
+- ft_strlen
+- ft_putstr
+- repeat_alpha
+

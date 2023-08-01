@@ -1,9 +1,7 @@
 
-1 Functions/Programs
+0 Functions/Programs
 
 To Practice:
-
-- ft_itoa
 
 Done:
 
@@ -16,3 +14,4 @@ Done:
 - ft_split
 - sort_list
 - fprime
+- ft_itoa

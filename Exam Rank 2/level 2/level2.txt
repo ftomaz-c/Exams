@@ -1,5 +1,5 @@
 
-11 Functions/Programs
+10 Functions/Programs
 
 To Practice:
 
@@ -10,7 +10,6 @@ To Practice:
 - ft_strpbrk
 - ft_strrev
 - ft_strspn
-- inter
 - print_bits
 - reverse_bits
 - union
@@ -26,4 +25,4 @@ Done:
 - swap_bits
 - ft_strdup
 - alpha_mirror
-
+- inter

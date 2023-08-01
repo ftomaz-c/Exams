@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   inter.c                                            :+:      :+:    :+:   */
+/*   expand_str.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ftomaz-c <ftomaz-c@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/01 12:45:31 by ftomaz-c          #+#    #+#             */
-/*   Updated: 2023/08/01 15:25:01 by ftomaz-c         ###   ########.fr       */
+/*   Created: 2023/08/01 15:26:49 by ftomaz-c          #+#    #+#             */
+/*   Updated: 2023/08/01 16:34:01 by ftomaz-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,44 +17,55 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	inter(char *s1, char *s2)
+void	ft_putstr(char *str)
+{
+	while (*str)
+	{
+		ft_putchar(*str);
+		str++;
+	}
+}
+
+void	expand_str(char *str)
 {
 	int	i;
 	int	j;
-	int	w;
 
+	j = 0;
 	i = 0;
-	while (s1[i] != '\0')
+	while (str[i] != '\0')
 	{
-		j = 0;
-		while(j < i)
+		while (i == 0)
 		{
-			if (s1[j] == s1[i])
+			if (str[j] >= 33 && str[j] <= 126)
 			{
-				j = -1;
-				break;
+				i = j;
+				break ;
 			}
 			j++;
 		}
-		w = 0;
-		while (s2[w] != '\0' && j != -1)
+		while (str[j + 1] != '\0')
+			j++;
+		while (str[j] == ' ' || str[j] == '\t')
+			j--;
+		while ((str[i] == ' ' || str[i] == '\t') && i <= j)
 		{
-			if (s1[i] == s2[w])
-			{
-				ft_putchar(s1[i]);
-				break ;
-			}
-			w++;
+			i++;
+			if (str[i] >= 33 && str[i] <= 126)
+				ft_putstr("   ");
 		}
+		if (i <= j)
+			ft_putchar(str[i]);
 		i++;
 	}
 }
 
 int	main(int argc, char **argv)
 {
-	if (argc == 3)
+	if (argc == 2)
 	{
-		inter(argv[1], argv[2]);
+		expand_str(argv[1]);
 	}
-	write(1, "\n", 1);
+	else
+		write(1, "\n", 1);
 }

@@ -1,28 +1,29 @@
 
-12 Functions/Programs
+11 Functions/Programs
 
 To Practice:
 
-  - alpha_mirror
-  - do_op
-  - ft_atoi
-  - ft_strcmp
-  - ft_strcspn
-  - ft_strpbrk
-  - ft_strrev
-  - ft_strspn
-  - inter
-  - print_bits
-  - reverse_bits
-  - union
+- do_op
+- ft_atoi
+- ft_strcmp
+- ft_strcspn
+- ft_strpbrk
+- ft_strrev
+- ft_strspn
+- inter
+- print_bits
+- reverse_bits
+- union
 
 Done:
 
-  - last_word
-  - is_power_of_2
-  - camel_to_snake
-  - max
-  - snake_to_camel
-  - wdmatch
-  - swap_bits
-  - ft_strdup
+- last_word
+- is_power_of_2
+- camel_to_snake
+- max
+- snake_to_camel
+- wdmatch
+- swap_bits
+- ft_strdup
+- alpha_mirror
+

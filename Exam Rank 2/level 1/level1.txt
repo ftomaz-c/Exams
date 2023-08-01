@@ -1,12 +1,10 @@
 
-4 Functions/Programs
+3 Functions/Programs
 
 To Practice:
 
 - first_word
 - ft_swap
-- rev_print
-- ulstr
 
 Done:
 
@@ -18,3 +16,5 @@ Done:
 - repeat_alpha
 - rotone
 - ft_strcpy
+- ulstr
+- rev_print

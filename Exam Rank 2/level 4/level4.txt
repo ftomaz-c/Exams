@@ -1,18 +1,18 @@
 
-3 Functions/Programs
+1 Functions/Programs
 
 To Practice:
 
-  - fprime
-  - ft_itoa
-  - sort_list
+- ft_itoa
 
 Done:
 
-  - flood_fill
-  - rostring
-  - sort_int_tab
-  - rev_wstr
-  - ft_list_foreach
-  - ft_list_remove_if
-  - ft_split
+- flood_fill
+- rostring
+- sort_int_tab
+- rev_wstr
+- ft_list_foreach
+- ft_list_remove_if
+- ft_split
+- sort_list
+- fprime
